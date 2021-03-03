@@ -1,0 +1,35 @@
+1. Verify username text box is present.
+2. Verify password text box is present.
+3. Verify Login button is present.
+4. Verify user is able to login successfully using usernames {
+standard_user with correct password(secret_sauce) 
+
+5. Verify user is able to login successfully using usernames {
+performance_glitch_user with correct password(secret_sauce) but landing page delays in opening (performance is slow) 
+
+6. Verify user is NOT able to login using usernames locked_out_user with correct password(secret_sauce) and error message is displayd: "Sorry, this user has been locked out." 
+
+7. Verify user is able to login using usernames {
+problem_user with correct password(secret_sauce) but landing page doesnot open as expected(open a blank page).
+
+8. Verify user is NOT ble to login successfully using usernames other than {
+standard_user,
+performance_glitch_user,problem_user} with correct password(secret_sauce) 
+
+9. Verify user is NOT able to login successfully using usernames {
+standard_user,
+performance_glitch_user,problem_user} with password other than(secret_sauce) 
+
+10. Verify username is case sensitivite sample: standard_useR with password secret_sauce
+
+11. Verify password is case sensitivite sample: standard_user with password secret_saucE
+
+12. Verify that landing page could not be opened without logging in
+
+13. Verify error message when username is not provided :  "Username is required"
+
+14. Verify error message when password is not provided :  "Password is required"
+
+15. Verify error message when both username and password are not provided :  "Username is required"
+16. verify logout functionality and very that user is redirecting to login screen again
+17. verify valid user test to validate items and check that the page should load all items
